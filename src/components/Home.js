@@ -1,9 +1,13 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import image1 from '../Assets/image1.jpg';
 
 const Home = () => {
   return (
-    <section id="home" style={{ minHeight: '100vh', background: '#f8f9fa', paddingTop: '80px' }}>
+    <section
+      id="home"
+      style={{ minHeight: '100vh', background: '#f8f9fa', paddingTop: '80px' }}
+    >
       <Container>
         <Row className="align-items-center">
           <Col md={6}>
@@ -19,11 +23,12 @@ const Home = () => {
               View My Work
             </Button>
           </Col>
-          <Col md={6}>
+          <Col md={6} className="text-center">
             <img
-              src="https://source.unsplash.com/600x400/?technology,website"
+              src={image1}
               alt="Web Design"
               className="img-fluid rounded shadow"
+              style={{ maxWidth: '75%', height: 'auto' }} // <- Reduces size
             />
           </Col>
         </Row>
