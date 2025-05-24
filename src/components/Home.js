@@ -6,30 +6,48 @@ const Home = () => {
   return (
     <section
       id="home"
-      style={{ minHeight: '100vh', background: '#f8f9fa', paddingTop: '80px' }}
+      style={{
+        minHeight: '100vh',
+        background: 'linear-gradient(135deg, #e9ecef, #f8f9fa)',
+        paddingTop: '80px',
+      }}
     >
       <Container>
         <Row className="align-items-center">
+          {/* Left Side: Text */}
           <Col md={6}>
-            <h1 className="display-4 fw-bold text-dark">Crafting Elegant Web Solutions</h1>
-            <p className="lead text-muted mt-4">
-              I specialize in designing and developing responsive, visually compelling websites that drive results. 
-              With a strong track record of delivering under pressure and exceeding client expectations, I’m here to turn your vision into a high-end digital experience.
+            <h1 className="display-5 fw-bold text-dark">Hi, I'm MELKZEDEK WAFULA</h1>
+            <p className="lead text-muted mt-3">
+              I build modern, scalable, and responsive websites and applications that make a difference.
             </p>
             <p className="text-muted">
-              Let’s work together to build a website that reflects your brand, engages your audience, and achieves your goals — all within your timeline.
+              Whether you need a sleek frontend, powerful backend, or a full-stack solution — I'm ready to help bring your vision to life with clean code and creative design.
             </p>
-            <Button variant="dark" size="lg" href="#projects" className="mt-3">
-              View My Work
-            </Button>
+            <div className="d-flex gap-3 mt-4">
+              <Button variant="primary" size="lg" href="#projects">
+                View Projects
+              </Button>
+              <Button variant="outline-dark" size="lg" href="#contact">
+                Contact Me
+              </Button>
+            </div>
           </Col>
-          <Col md={6} className="text-center">
+
+          {/* Right Side: Image + Name/Title */}
+          <Col md={6} className="text-center mt-5 mt-md-0">
             <img
               src={image1}
-              alt="Web Design"
-              className="img-fluid rounded-circle shadow"
-              style={{ width: '250px', height: '250px', objectFit: 'cover' }}
+              alt="Web Developer"
+              className="img-fluid rounded-circle shadow mb-3"
+              style={{
+                width: '220px',
+                height: '220px',
+                objectFit: 'cover',
+                border: '5px solid #dee2e6',
+              }}
             />
+            <div className="text-primary fs-5">Full-Stack Web Developer</div>
+
           </Col>
         </Row>
       </Container>

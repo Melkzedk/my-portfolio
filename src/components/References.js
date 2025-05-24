@@ -6,22 +6,22 @@ function Clients() {
     {
       name: 'Felix Onyango',
       title: 'Software Engineer',
-      email: 'felix@example.com',
-      phone: '+254 712 345 678',
+      email: 'felexonyango02@gmail.com',
+      phone: '+254 748 793 263',
     },
     {
       name: 'Ian Omondi',
       title: 'Developer Mentor',
-      email: 'ian@example.com',
-      phone: '+254 798 765 432',
+      email: 'ianokoth289@gmail.com',
+      phone: '+254 745 425 621',
     },
     // Add more clients if needed
   ];
 
   return (
     <section id="clients" className="py-5 bg-light">
-      <Container>
-        <h2 className="text-center mb-5">Clients</h2>
+      <Container>Clients
+        <h2 className="text-center mb-5">REFERENCES</h2>
         <Row>
           {clientReferences.map((client, index) => (
             <Col md={6} key={index} className="mb-4">
