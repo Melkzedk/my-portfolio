@@ -27,8 +27,8 @@ const Home = () => {
             <img
               src={image1}
               alt="Web Design"
-              className="img-fluid rounded shadow"
-              style={{ maxWidth: '75%', height: 'auto' }} // <- Reduces size
+              className="img-fluid rounded-circle shadow"
+              style={{ width: '250px', height: '250px', objectFit: 'cover' }}
             />
           </Col>
         </Row>
