@@ -1,17 +1,44 @@
 import React from 'react';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 
 function Skills() {
   return (
-    <section id="skills" className="p-5 bg-light">
-      <h2 className="text-center mb-4">Skills</h2>
-      <div className="container">
-        <h5>Frontend</h5>
-        <p>React, HTML, CSS, Bootstrap, TailwindCSS</p>
-        <h5>Backend</h5>
-        <p>Node.js, PHP</p>
-        <h5>Database</h5>
-        <p>MongoDB, SQL</p>
-      </div>
+    <section id="skills" className="py-5 bg-light">
+      <Container>
+        <h2 className="mb-4">Skills</h2>
+        <Row>
+          <Col md={4} className="mb-4">
+            <Card className="h-100 shadow-sm">
+              <Card.Body>
+                <Card.Title>Frontend</Card.Title>
+                <Card.Text>
+                  React, HTML, CSS, Bootstrap, TailwindCSS
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card className="h-100 shadow-sm">
+              <Card.Body>
+                <Card.Title>Backend</Card.Title>
+                <Card.Text>
+                  Node.js, PHP
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="mb-4">
+            <Card className="h-100 shadow-sm">
+              <Card.Body>
+                <Card.Title>Database</Card.Title>
+                <Card.Text>
+                  MongoDB, SQL
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 }
