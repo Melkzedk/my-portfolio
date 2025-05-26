@@ -15,12 +15,11 @@ function Clients() {
       email: 'ianokoth289@gmail.com',
       phone: '+254 745 425 621',
     },
-    // Add more clients if needed
   ];
 
   return (
     <section id="clients" className="py-5 bg-light">
-      <Container>Clients
+      <Container>
         <h2 className="text-center mb-5">REFERENCES</h2>
         <Row>
           {clientReferences.map((client, index) => (
