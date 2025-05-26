@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { FaHome, FaUser, FaTools, FaProjectDiagram, FaAddressBook, FaEnvelope } from 'react-icons/fa';
 
 function MyNavbar() {
   const [expanded, setExpanded] = useState(false);
@@ -25,12 +26,24 @@ function MyNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto text-uppercase fw-semibold">
-            <Nav.Link href="#home" onClick={handleNavClick} className="mx-2">Home</Nav.Link>
-            <Nav.Link href="#about" onClick={handleNavClick} className="mx-2">About</Nav.Link>
-            <Nav.Link href="#skills" onClick={handleNavClick} className="mx-2">Skills</Nav.Link>
-            <Nav.Link href="#projects" onClick={handleNavClick} className="mx-2">Projects</Nav.Link>
-            <Nav.Link href="#references" onClick={handleNavClick} className="mx-2">References</Nav.Link>
-            <Nav.Link href="#contact" onClick={handleNavClick} className="mx-2">Contact</Nav.Link>
+            <Nav.Link href="#home" onClick={handleNavClick} className="mx-2">
+              <FaHome className="me-1" /> Home
+            </Nav.Link>
+            <Nav.Link href="#about" onClick={handleNavClick} className="mx-2">
+              <FaUser className="me-1" /> About
+            </Nav.Link>
+            <Nav.Link href="#skills" onClick={handleNavClick} className="mx-2">
+              <FaTools className="me-1" /> Skills
+            </Nav.Link>
+            <Nav.Link href="#projects" onClick={handleNavClick} className="mx-2">
+              <FaProjectDiagram className="me-1" /> Projects
+            </Nav.Link>
+            <Nav.Link href="#references" onClick={handleNavClick} className="mx-2">
+              <FaAddressBook className="me-1" /> References
+            </Nav.Link>
+            <Nav.Link href="#contact" onClick={handleNavClick} className="mx-2">
+              <FaEnvelope className="me-1" /> Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
