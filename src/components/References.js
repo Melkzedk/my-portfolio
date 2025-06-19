@@ -15,6 +15,12 @@ function Clients() {
       email: 'ianokoth289@gmail.com',
       phone: '+254 745 425 621.',
     },
+     {
+      name: 'Ian Omondi',
+      title: 'Developer Mentor',
+      email: 'ianokoth289@gmail.com',
+      phone: '+254 745 425 621.',
+    },
   ];
 
   return (
