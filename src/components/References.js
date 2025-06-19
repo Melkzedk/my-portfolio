@@ -7,13 +7,13 @@ function Clients() {
       name: 'Felix Onyango',
       title: 'Software Engineer',
       email: 'felexonyango02@gmail.com',
-      phone: '+254 748 793 263',
+      phone: '+254 748 793 263.',
     },
     {
       name: 'Ian Omondi',
       title: 'Developer Mentor',
       email: 'ianokoth289@gmail.com',
-      phone: '+254 745 425 621',
+      phone: '+254 745 425 621.',
     },
   ];
 
