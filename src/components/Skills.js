@@ -33,7 +33,7 @@ function Skills() {
               <Card.Body>
                 <FaDatabase size={40} className="mb-3 text-warning" />
                 <Card.Title>Database</Card.Title>
-                <Card.Text>MongoDB, SQL</Card.Text>
+                <Card.Text>MongoDB, SQL, FIREBASE</Card.Text>
               </Card.Body>
             </Card>
           </Col>
