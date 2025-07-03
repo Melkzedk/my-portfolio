@@ -46,7 +46,7 @@ const Home = () => {
                 border: '5px solid #dee2e6',
               }}
             />
-            <div className="text-primary fs-1">Full-Stack Developer.</div>
+            <div className="text-primary fs-1">Full-Stack Developer</div>
           </Col>
         </Row>
       </Container>
