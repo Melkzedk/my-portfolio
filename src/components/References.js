@@ -20,7 +20,7 @@ function Clients() {
   return (
     <section id="clients" className="py-5 bg-light">
       <Container>
-        <h2 className="text-center mb-5">REFERENCE</h2>
+        <h2 className="text-center mb-5">REFERENCES</h2>
         <Row>
           {clientReferences.map((client, index) => (
             <Col md={6} key={index} className="mb-4">
