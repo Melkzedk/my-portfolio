@@ -17,9 +17,6 @@ const Home = () => {
           {/* Left Side: Text */}
           <Col md={6}>
             <h1 className="display-5 fw-bold text-dark">Hi, I'm MELKZEDEK WAFULA</h1>
-            <p className="lead text-secondary">
-              A passionate web developer with a knack for creating beautiful and functional digital experiences.
-            </p>
             <p className="lead text-muted mt-3">
               I build modern, scalable, and responsive websites and applications that make a difference.
             </p>
