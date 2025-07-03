@@ -23,7 +23,7 @@ function Skills() {
               <Card.Body>
                 <FaServer size={40} className="mb-3 text-success" />
                 <Card.Title>Backend</Card.Title>
-                <Card.Text>Node.js, PHP</Card.Text>
+                <Card.Text>Node.js, PHP, JAVA</Card.Text>
               </Card.Body>
             </Card>
           </Col>
